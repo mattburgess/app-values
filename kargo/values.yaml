@@ -3,6 +3,5 @@ api:
     enabled: true
     passwordHash: $2y$10$I.PTRH5tcDBU9YsoKCvAr.Dl0hTipcIIeXM6VYQQn7ipHeG.xyxQ.
     tokenSigningKey: 1HhllsqbBNbQegLJaKRfjY5bBcdekWtk
-  service:
-    type: NodePort
-    nodePort: 31444
+  tls:
+    enabled: false
